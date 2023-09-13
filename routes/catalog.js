@@ -12,7 +12,7 @@ const book_instance_controller = require("../controllers/bookinstanceController"
 //GET catalog homepage
 router.get("/", book_controller.index)
 
-router.get("/book/create", book_controller.book_create_post)
+router.get("/book/create", book_controller.book_create_get)
 
 router.post("/book/create", book_controller.book_create_post)
 
